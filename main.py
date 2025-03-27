@@ -17,7 +17,7 @@ def main():
     sorted_dict = sort_dict(number_of_chars)
     
     print("============ BOOKBOT ============")
-    print("Analyzing book found at books/frankenstein.txt...")
+    print(f"Analyzing book found at {sys.argv[1]}...")
     print("----------- Word Count ----------")
     print(f"Found {number_of_words} total words")
     print("--------- Character Count -------")
